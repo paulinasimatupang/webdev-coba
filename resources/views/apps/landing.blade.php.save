@@ -1,0 +1,93 @@
+@extends('layouts.master')
+@section('before-css')
+ <link rel="stylesheet" href="{{asset('assets/styles/vendor/pickadate/classic.css')}}">
+ <link rel="stylesheet" href="{{asset('assets/styles/vendor/pickadate/classic.date.css')}}">
+
+
+@endsection
+@section('main-content')
+        <div class="breadcrumb">
+            <h1>Selamat Datang!</h1>
+            <ul>
+                <li><a href="">Selamat Beraktifitas</a></li>
+            </ul>
+        </div>
+
+        <div class="separator-breadcrumb border-top"></div>
+
+
+        <div class="row">
+
+	    <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="card bg-dark text-white o-hidden mb-4">
+			<img class="card-img" src="assets/images/bjb-bisa-header.jpg" alt="Card image">
+                        <!--<div class="card-img-overlay">
+                        	<h5 class="card-title text-white">Selada | bjb BiSA Dashboard</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text">Last updated 3 mins ago</p>
+                        </div>-->
+               	</div>
+            </div>
+            <!-- ICON BG -->
+            <div class="col-lg-2 col-md-3 col-sm-6">
+                <div class="card card-icon-bg card-icon-bg-primary o-hidden mb-4">
+                    <div class="card-body text-center">
+                        <i class="i-Bar-Chart"></i>
+                        <div class="content">
+                            <p class="text-muted mt-2 mb-0">Jump to</p>
+                            <p class="lead text-primary text-24 mb-2">Dashboard</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="card card-icon-bg card-icon-bg-primary o-hidden mb-4">
+                    <div class="card-body text-center">
+                        <i class="i-Financial"></i>
+                        <div class="content">
+                            <p class="text-muted mt-2 mb-0">Sales</p>
+                            <p class="lead text-primary text-24 mb-2">4021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="card card-icon-bg card-icon-bg-primary o-hidden mb-4">
+                    <div class="card-body text-center">
+                        <i class="i-Checkout-Basket"></i>
+                        <div class="content">
+                            <p class="text-muted mt-2 mb-0">Orders</p>
+                            <p class="lead text-primary text-24 mb-2">80</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="card card-icon-bg card-icon-bg-primary o-hidden mb-4">
+                    <div class="card-body text-center">
+                        <i class="i-Money-2"></i>
+                        <div class="content">
+                            <p class="text-muted mt-2 mb-0">Expense</p>
+                            <p class="lead text-primary text-24 mb-2">120</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+@endsection
+@section('page-js')
+     <script src="{{asset('assets/js/vendor/echarts.min.js')}}"></script>
+     <script src="{{asset('assets/js/es5/echart.options.min.js')}}"></script>
+     <script src="{{asset('assets/js/es5/dashboard.v1.script.js')}}"></script>
+     <script src="{{asset('assets/js/vendor/pickadate/picker.js')}}"></script>
+     <script src="{{asset('assets/js/vendor/pickadate/picker.date.js')}}"></script>
+
+@endsection
+@section('bottom-js')
+<script src="{{asset('assets/js/form.basic.script.js')}}"></script>
+
+
+@endsection

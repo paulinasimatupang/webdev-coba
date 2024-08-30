@@ -1,0 +1,146 @@
+.badge_bintang2{
+    padding: 5px;
+    background-color: #6186DB;
+    border-color: #6186DB;
+    color: white !important;
+    border: 1px solid !important;
+    border-radius: 6px !important;
+}
+.badge_bintang2 a{ 
+ 
+    color: white !important;
+
+}
+.border_radius_0{
+    border-radius: 0px;
+}
+
+.height_card_dashboard{
+    height: 160px;
+}
+.height_card_dashboard_2{
+    height: 120px;
+}
+.flex_bintang {
+    display: flex;
+}
+.filter-dashboard{
+    background: #6186DB;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0 480px;
+    cursor: pointer;
+    border-color: #6186DB;
+    border: 1px solid;
+    border-radius: 4px !important;
+}
+.filter-dashboard-2{
+    background: #6186DB;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0 90%;
+    cursor: pointer;
+    border-color: #6186DB;
+    border: 1px solid;
+    border-radius: 4px !important;
+}
+.flex_bintang_row {
+   flex-direction: row;
+}
+.padding1_bintang{
+    padding: 1rem 1rem !important;
+}
+.spaceb_bintang{
+    justify-content: space-between;
+}
+.max_width_bintang{
+    max-width: 100% !important;
+}
+.img_bintang_sidebar{
+    width: 2.2rem;
+    height: 100%;
+    margin: 0 auto 6px;
+}
+.logo_bintang{
+    width: 220px;
+    margin-left: 10px;
+}
+.width_signin{
+min-width: 400px !important;
+}
+.logo_bintang_footer{
+    width: 120px !important;
+    margin-left: 10px;
+}
+.logo_bintang_header{
+    width: 100px !important;
+    margin-left: 10px;
+}
+.logo_card{
+    width: 120px !important;
+    margin-left: 10px;
+}
+.logo_card_2{
+    width: 70px !important;
+    margin-left: 10px;
+}
+.picker__holder{
+    margin-left: 28%;
+    margin-top: 4%;
+}
+
+.logo_bintang img{
+    width: 19rem;
+    height: 100%;
+}
+.padding_lr_0{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.padding_bottom_tterbaik{
+    padding-bottom: 0.8rem !important;
+}
+.fontsize_ttransaksi{
+    font-size: 3.41rem !important;
+}
+.logo_bintang_signin{
+    width: 180px !important;
+    height: 100% !important;
+}
+.btn_selada{
+    background-color: #6186DB ;
+    border-color: #6186DB;
+}
+@media only screen and (max-width: 600px) {
+    .filter-dashboard{
+        background: #6186DB;
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin: 0 0px !important;
+        cursor: pointer;
+        border-color: #6186DB;
+        border: 1px solid;
+        border-radius: 4px !important;
+    }
+    .picker__holder{
+        margin-left: 0%;
+        margin-top: 10%;
+    }
+    .filter-dashboard-2{
+        background: #6186DB;
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin: 0 0 0 70%;
+        cursor: pointer;
+        border-color: #6186DB;
+        border: 1px solid;
+        border-radius: 4px !important;
+    }
+    .flex-r{
+        display: flex;
+    }
+  }
